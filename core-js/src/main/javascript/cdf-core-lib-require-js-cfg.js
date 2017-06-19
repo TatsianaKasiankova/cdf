@@ -371,6 +371,9 @@
     noGlobal: true
   };
 
+      // Moment-timezone with data 0.5.13-2017b
+  requirePaths['cdf/lib/moment-timezone'] = prefix + '/moment-timezone/moment-timezone-with-data';
+
   //xmla4js
   requirePaths['cdf/lib/xmla'] = prefix + "/xmla/Xmla";
   amdShim["cdf/lib/xmla"] = {
